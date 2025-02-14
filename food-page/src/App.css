@@ -26,16 +26,27 @@
   margin-inline: 20px;
 }
 
-.login-form input{
+.login-form input {
   padding: 10px;
   border-top: none;
   border-left: none;
   border-right: none;
   border-color: orange;
+  
+  border-bottom-width: 2px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: transparent;
 }
 
-.login-form input:hover{
-  cursor:text;
+.login-form input:focus {
+  border-color: #ff4d00;  
+  box-shadow: 0 2px 4px rgba(255, 77, 0, 0.1);  
+  transform: translateY(-2px);
+}
+
+.login-form input:hover {
+  border-color: #ff8533; 
 }
 
 .login-form button{
@@ -44,4 +55,9 @@
   background-color: orange;
   border-radius: 10px;
   padding: 10px;
+  transition: 200ms ease;
 }
+.login-form button:hover{
+  background-color: darkgoldenrod;
+}
+
