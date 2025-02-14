@@ -1,5 +1,5 @@
 .login-section{
-  min-height: 100vh;
+  min-height: 150vh;
   max-width: 100vw;
   background-image: url('./assets/loginbg.jpeg');
   background-size: cover;
@@ -10,12 +10,13 @@
 }
 
 .login-box{
-  min-height: 300px;
+  min-height: 100vh;
   width: 400px;
   background-color: white;
   border-radius: 20px;
   display: flex;
   place-items: center;
+  padding: 20px;
 }
 
 .login-form{
@@ -49,7 +50,7 @@
   border-color: #ff8533; 
 }
 
-.login-form button{
+.button-list button{
   color: white;
   border: none;
   background-color: orange;
@@ -57,7 +58,7 @@
   padding: 10px;
   transition: 200ms ease;
 }
-.login-form button:hover{
+.button-list button:hover{
   background-color: darkgoldenrod;
 }
 
